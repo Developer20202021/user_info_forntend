@@ -395,7 +395,7 @@ const AddedSectorsArray = (value) => {
 
 
 
-        <div class="plan">
+        <div class="SectorConatiner">
 		<div class="inner">
 			
 			<p class="title">Your Selected Sectors</p>
@@ -430,7 +430,7 @@ const AddedSectorsArray = (value) => {
 	</div>
 
 
-
+  <p className='create-here'>Select Sectors</p>
 
   <div className='textfield' id='sectors'>
   

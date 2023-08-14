@@ -279,7 +279,7 @@ const getInputValue = (e)=>{
 
 
 
-        <div class="plan">
+        <div class="SectorConatiner">
 		<div class="inner">
 			
 			<p class="title">Your Selected Sectors</p>

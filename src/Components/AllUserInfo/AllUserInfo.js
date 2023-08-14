@@ -71,33 +71,33 @@ function AllUserInfo(props) {
 
    
 
-    <div className="client-order-history-container">
+    <div className="allUserInfo-container">
 
-    <div className="client-order-history-header">
+    <div className="userInfo-header">
 
 
 
-        <div className="order-list-title">
-            <span className='order-list-icon'><i class="fas fa-border-all"></i> </span> 
+        <div className="userInfo-title">
+            <span className='userInfo-icon'><i class="fas fa-border-all"></i> </span> 
             <span className='order-list'>User Informations</span>
         </div>
     </div>
 
 
 
-    <div className="manage-order-table-container">
+    <div className="userInfo-container">
 
-        <div className="manage-order-table-box">
+        <div className="userInfo-box">
 
 
 
-            <table className='manage-order-table'>
+            <table className='userInfo-table'>
 
                 <thead>
                     <th> <span><i class="fas fa-user-tie"></i></span> <span>Name</span> </th>
 
 
-                    <th><span className='cancel'><i class="fas fa-trash-alt"></i></span> <span >Selected Sectors</span> </th>
+                   
                     
                     
                    

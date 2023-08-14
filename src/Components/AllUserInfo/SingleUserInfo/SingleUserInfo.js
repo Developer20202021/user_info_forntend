@@ -97,12 +97,12 @@ function SingleUserInfo(props) {
 
     
 
-    <tr className='manage-order-client-row'>
+    <tr className='userInfo-row'>
        
           
            
            <td>{UserName}</td>
-           <td  className='phone-number-td'><Button variant="outlined" color='success' endIcon={<ArrowForwardIcon />} >See</Button></td>
+        
            <td ><Checkbox disabled defaultChecked/></td>
 
            <td><Button onClick={()=>routeChangeToEditpage("",_id)} variant="outlined"  endIcon={<EditIcon />}>Edit</Button></td>
