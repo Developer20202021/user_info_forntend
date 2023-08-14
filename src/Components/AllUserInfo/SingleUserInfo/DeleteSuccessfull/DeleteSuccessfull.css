@@ -1,0 +1,92 @@
+
+
+@media screen and (max-width:788px) {
+
+
+ .delete-aside-inner-image{
+
+    margin-top: 90px;
+
+
+    }
+    
+
+
+.delete-aside-inner-image img{
+
+    width: 300px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.log-in-container{
+    display: flex;
+    justify-content: center;
+    border: 5px solid whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+  
+}
+.log-in-input-section{
+    margin-top: 70px;
+}
+.log-in-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.another-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.login-aside-image{
+    display: none;
+}
+
+
+
+
+.log-in-box{
+    margin-bottom: 130px;
+}
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

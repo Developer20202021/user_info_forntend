@@ -1,0 +1,596 @@
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:788px) {
+
+
+    .log-in-input-section h1{
+
+      font-size: 12px !important;
+      text-overflow: ellipsis;
+
+
+
+    }
+
+    .log-in-input-section .create-here{
+
+      font-size: 10px !important;
+      text-overflow: ellipsis;
+
+      margin-left: -12px;
+     
+
+
+
+    }
+
+
+
+    .plan {
+      border-radius: 16px;
+      box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+      padding: 10px;
+      background-color: #fff;
+      color: #697e91;
+      max-width: 300px;
+  
+      
+      
+      
+    }
+    
+    .plan strong {
+      font-weight: 600;
+      color: #425275;
+    }
+    
+    .plan .inner {
+      align-items: center;
+      padding: 20px;
+      padding-top: 40px;
+      background-color: #ecf0ff;
+      border-radius: 12px;
+      position: relative;
+    }
+    
+    .plan .pricing {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #bed6fb;
+      border-radius: 99em 0 0 99em;
+      display: flex;
+      align-items: center;
+      padding: 0.625em 0.75em;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #425475;
+    }
+    
+    .plan .pricing small {
+      color: #707a91;
+      font-size: 0.75em;
+      margin-left: 0.25em;
+    }
+    
+    .plan .title {
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #425675;
+    }
+    
+    .plan .title + * {
+      margin-top: 0.75rem;
+    }
+    
+    .plan .info + * {
+      margin-top: 1rem;
+    }
+    
+    .plan .features {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .plan .features li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .plan .features li + * {
+      margin-top: 0.75rem;
+    }
+    
+    .plan .features .icon {
+      background-color: #1FCAC5;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+    }
+    
+    .plan .features .icon svg {
+      width: 14px;
+      height: 14px;
+    }
+    
+    .plan .features + * {
+      margin-top: 1.25rem;
+    }
+    
+    .plan .action {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+    
+    .plan .button {
+      background-color: #6558d3;
+      border-radius: 6px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 1.125rem;
+      text-align: center;
+      border: 0;
+      outline: 0;
+      width: 100%;
+      padding: 0.625em 0.75em;
+      text-decoration: none;
+    }
+    
+    .plan .button:hover, .plan .button:focus {
+      background-color: #4133B7;
+    }
+
+.MuiInputBase-root{
+
+      margin: 20px !important;
+
+
+    }
+
+.MuiFormLabel-root{
+
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+
+
+
+}
+  
+  
+  
+  
+    #sectors{
+      border: 1px solid #2a9df4;
+      border-radius: 3px;
+      font-size: 18px;
+      margin: 20px;
+    }
+  
+    
+    /* #sectors{
+  
+      display: flex;
+      margin: 20px;
+      padding: 20px;
+      align-items: baseline;
+      justify-content: baseline;
+      border: 1px solid #2a9df4;
+      border-radius: 3px;
+      box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+    } */
+  
+  
+  
+  
+  
+    .agree{
+  
+      display: flex;
+      justify-content: center;
+      align-items:center ;
+    }
+
+
+   
+
+    .terms{
+
+      margin-left: 40px;
+
+
+    }
+
+    .terms p{
+
+      margin-left: 10px;
+
+
+    }
+
+    .terms .MuiSvgIcon-root{
+
+      font-size: 30px !important;
+
+
+  }
+
+  .sectorNameli .MuiSvgIcon-root{
+
+    font-size: 30px !important;
+    margin-top: -5px;
+    margin-left: -52px;
+    font-weight: bold;
+    font-size:24px;
+    color: #221461;
+    /*The change*/
+
+
+
+      }
+
+
+
+    
+
+
+  
+  
+  
+    ul{
+  
+      list-style-type: none;
+      position:relative;
+      cursor: pointer;
+      
+    }
+  
+  
+    .sectorName{
+  
+      font-weight: bold;
+  
+    }
+  
+  
+    .subSectorName{
+  
+      font-weight: bold;
+
+     
+    }
+  
+  
+  
+    li {
+      line-height:20px;
+      float:left;
+  }
+  
+  
+  
+    li ul{ 
+      cursor: pointer;
+      display:none; 
+      z-index:99999;
+      /* display:list-item !important; */
+      position:absolute;
+      /*margin-top:2px;*/
+      margin-left:0px;
+  
+      background: #2a9df4;
+      border-radius: 13px;
+  
+  
+      color: white;
+  }
+  
+  
+  li ul ul {left: 100%; top:0;}
+  
+  ul li:hover > ul {
+    display: block;
+    background-color: #425475;
+    /* padding-bottom: 10px; */
+    padding: 30px;
+    width: 150px;
+    
+    
+  }
+  
+  ul li:hover ul li {
+    float:none;
+    position:relative;
+    /*padding: 2px 0px;*/
+    border: 1px solid ;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-left: -20px;
+   
+  }
+  
+  
+  ul li:focus + ul{
+    display: block;
+  }
+  
+  
+  ul ul li {
+    padding: 5px 15px;
+    display: block;
+    }
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+  @media only screen and (min-width:788px) {
+
+ 
+  
+
+
+    .plan {
+      border-radius: 16px;
+      box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+      padding: 10px;
+      background-color: #fff;
+      color: #697e91;
+      max-width: 300px;
+  
+      
+      
+      
+    }
+    
+    .plan strong {
+      font-weight: 600;
+      color: #425275;
+    }
+    
+    .plan .inner {
+      align-items: center;
+      padding: 20px;
+      padding-top: 40px;
+      background-color: #ecf0ff;
+      border-radius: 12px;
+      position: relative;
+    }
+    
+    .plan .pricing {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #bed6fb;
+      border-radius: 99em 0 0 99em;
+      display: flex;
+      align-items: center;
+      padding: 0.625em 0.75em;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #425475;
+    }
+    
+    .plan .pricing small {
+      color: #707a91;
+      font-size: 0.75em;
+      margin-left: 0.25em;
+    }
+    
+    .plan .title {
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #425675;
+    }
+    
+    .plan .title + * {
+      margin-top: 0.75rem;
+    }
+    
+    .plan .info + * {
+      margin-top: 1rem;
+    }
+    
+    .plan .features {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .plan .features li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .plan .features li + * {
+      margin-top: 0.75rem;
+    }
+    
+    .plan .features .icon {
+      background-color: #1FCAC5;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+    }
+    
+    .plan .features .icon svg {
+      width: 14px;
+      height: 14px;
+    }
+    
+    .plan .features + * {
+      margin-top: 1.25rem;
+    }
+    
+    .plan .action {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+    
+    .plan .button {
+      background-color: #6558d3;
+      border-radius: 6px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 1.125rem;
+      text-align: center;
+      border: 0;
+      outline: 0;
+      width: 100%;
+      padding: 0.625em 0.75em;
+      text-decoration: none;
+    }
+    
+    .plan .button:hover, .plan .button:focus {
+      background-color: #4133B7;
+    }
+  
+  
+  
+  
+    .sector{
+  
+      display: flex;
+      margin: 20px;
+      padding-right: 20px;
+      align-items: baseline;
+      justify-content: baseline;
+      border: 1px solid #2a9df4;
+      border-radius: 3px;
+      font-size: 18px;
+  
+  
+    }
+  
+    
+    #sectors{
+  
+      display: flex;
+      margin: 20px;
+      padding: 20px;
+      align-items: baseline;
+      justify-content: baseline;
+      border: 1px solid #2a9df4;
+      border-radius: 3px;
+      box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+    }
+  
+  
+  
+  
+  
+    .agree{
+  
+      display: flex;
+      justify-content: center;
+    }
+  
+  
+  
+    ul{
+  
+      list-style-type: none;
+      position:relative;
+      cursor: pointer;
+    }
+  
+  
+    .sectorName{
+  
+      font-weight: bold;
+  
+    }
+  
+  
+    .subSectorName{
+  
+      font-weight: bold;
+    }
+  
+  
+  
+    li {
+      line-height:20px;
+      float:left;
+  }
+  
+  
+  
+    li ul{ 
+      cursor: pointer;
+      display:none; 
+      z-index:99999;
+      /* display:list-item !important; */
+      position:absolute;
+      /*margin-top:2px;*/
+      margin-left:0px;
+  
+      background: #2a9df4;
+      border-radius: 13px;
+  
+  
+      color: white;
+  }
+  
+  
+  li ul ul {left: 100%; top:0;}
+  
+  ul li:hover > ul {
+    display: block;
+    background-color: #425475;
+    padding-bottom: 10px;
+    
+  }
+  
+  ul li:hover ul li {
+    float:none;
+    position:relative;
+    /*padding: 2px 0px;*/
+    border: 1px solid ;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-left: -20px;
+  }
+  
+  
+  ul li:focus + ul{
+    display: block;
+  }
+  
+  
+  ul ul li {
+    padding: 5px 15px;
+        display: block;
+    }
+
+
+    
+  }

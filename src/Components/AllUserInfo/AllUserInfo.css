@@ -1,0 +1,163 @@
+
+
+
+
+@media screen and (min-width:788px) {
+    .client-order-history-header{
+        position: relative;
+        background-color: #2a9df4;
+        height: 70px;
+        margin-top: 40px;
+    }
+    .order-list-title{
+        background-color: white;
+        font-size: 20px;
+        font-weight: 600;
+        width: 150px;
+        height: 50px;
+        padding-left: 15px;
+        border-radius: 10px;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        padding-top: 10px;
+       
+    }
+    .order-list-icon i{
+        color: #2a9df4;
+    
+    }
+    
+    
+    .manage-order-table thead th {
+        width: 200px;
+        border: 2px solid rgb(247, 243, 243);
+        padding: 30px;
+        color: rgb(49, 41, 41);
+    
+       
+       
+    
+    }
+    .manage-order-table-box{
+        background-color: rgb(231, 216, 231);
+        margin-bottom: 60px;
+    }
+    .manage-order-table thead{
+        background-color: rgb(241, 227, 241);
+        height: 90px;
+        
+    }
+    
+    
+    .manage-order-table-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    
+    .cancel{
+        color: red;
+    }
+}
+
+
+
+
+
+
+
+
+/* Phone responsive  */
+
+
+
+
+
+@media screen and (max-width:788px) {
+    .client-order-history-header{
+        position: relative;
+        background-color: #2a9df4;
+        height: 70px;
+        margin-top: 40px;
+    }
+    .order-list-title{
+        background-color: white;
+        font-size: 20px;
+        font-weight: 600;
+        width: 150px;
+        height: 50px;
+        padding-left: 15px;
+        border-radius: 10px;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        padding-top: 10px;
+       
+    }
+    .manage-order-table{
+        width: 100vw;
+    }
+
+
+
+
+
+
+
+
+
+    .order-list-icon i{
+        color: rgb(82, 196, 26);
+    
+    }
+    
+    
+    .manage-order-table thead th {
+        width: 50px;
+        border: 2px solid rgb(247, 243, 243);
+        /* padding: 30px; */
+        color: rgb(49, 41, 41);
+    
+       
+       
+    
+    }
+    .manage-order-table-box{
+        background-color: rgb(231, 216, 231);
+        /* height: 100vh; */
+        margin-bottom: 60px;
+    }
+    .manage-order-table thead{
+        background-color: rgb(241, 227, 241);
+        height: 90px;
+        
+    }
+    
+    
+    .manage-order-table-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        font-size: 7px;
+        
+    }
+
+
+    .MuiButtonBase-root{
+
+        width: 13px !important;
+        font-size: 10px !important;
+    }
+
+    .MuiSvgIcon-root{
+
+        font-size: 10px !important;
+
+
+    }
+   
+    
+}
